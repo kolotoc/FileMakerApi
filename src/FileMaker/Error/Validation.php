@@ -1,4 +1,6 @@
-<?php namespace Kolotoc\FileMakerApi;
+<?php
+
+namespace Kolotoc\FileMakerApi;
 /**
  * src API for PHP
  *
@@ -12,12 +14,6 @@
  * other intellectual property license or right is granted, either expressly or
  * by implication, by src.
  */
-
-/**#@+
- * @ignore Include parent class.
- */
-require_once dirname(__FILE__) . '/../Error.php';
-/**#@-*/
 
 /**
  * Extension of the FileMaker_Error class that adds information about

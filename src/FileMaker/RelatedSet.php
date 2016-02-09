@@ -39,7 +39,7 @@ class FileMaker_RelatedSet
      * @param FileMaker_Layout $layout FileMaker_Layout object that this
      * portal is on.
      */
-    function FileMaker_RelatedSet($layout)
+    function __construct($layout)
     {
         $this->_impl = new FileMaker_RelatedSet_Implementation($layout);
     }

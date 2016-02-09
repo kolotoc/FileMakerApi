@@ -9,7 +9,7 @@ class FileMaker_Result_Implementation
     public $_foundSetCount;
     public $_fetchCount;
 
-    function FileMaker_Result_Implementation($V0ab34ca9)
+    function __construct($V0ab34ca9)
     {
         $this->_fm = $V0ab34ca9;
     }

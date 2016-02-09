@@ -15,7 +15,7 @@ class FileMaker_Layout_Implementation
     public $_database;
     public $_extended = false;
 
-    function FileMaker_Layout_Implementation($V0ab34ca9)
+    function __construct($V0ab34ca9)
     {
         $this->_fm = $V0ab34ca9;
     }

@@ -7,7 +7,7 @@ class FileMaker_RelatedSet_Implementation
     public $_name;
     public $_fields = array();
 
-    function FileMaker_RelatedSet_Implementation($Vc6140495)
+    function __construct($Vc6140495)
     {
         $this->_layout = $Vc6140495;
         $this->_fm = $Vc6140495->_impl->_fm;
