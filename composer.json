@@ -1,0 +1,25 @@
+{
+  "name": "Kolotoc/filemaker-api",
+  "description": "FileMaker PHP API, namespaced, clean and error-free",
+  "keywords": [
+    "filemaker",
+    "api"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "FileMaker Inc",
+      "homepage": "http://filemaker.com"
+    },
+    {
+      "name": "Honza Liška",
+      "homepage": "http://nefario.cz"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.1"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
