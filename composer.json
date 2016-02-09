@@ -1,5 +1,5 @@
 {
-  "name": "Kolotoc/filemaker-api",
+  "name": "kolotoc/filemaker-api",
   "description": "FileMaker PHP API, namespaced, clean and error-free",
   "keywords": [
     "filemaker",
